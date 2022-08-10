@@ -2,7 +2,7 @@
 - 👀 I’m interested in fontend web development
 - 🌱 I’m currently learning HTML, CSS
 - 💞️ I’m looking to collaborate on any fontend project
-- 📫 How to reach me sultanmorin2001@gmail.com
+- 📫 How to reach me morinsultan@gmail.com
 
 <!---
 SoulOfMo/SoulOfMo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
