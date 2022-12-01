@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --hover: hsl(217, 12%, 63%);
+    --button: hsl(216, 12%, 54%);
+    --card-background: hsl(213, 19%, 18%);
+    --main-background: hsl(216, 12%, 8%);
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--main-background);
+    color: var(--white);
+    font-family: 'Overpass', sans-serif;
+}
+
+main {
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--hover);
+}
+
+.card {
+    background-color: var(--card-background);
+    padding: 2em;
+    max-width: 380px;
+    border-radius: 2em;
+}
+
+.star {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 22%);
+}
+
+img[alt="star_icon"] {
+    padding: 0.8em;
+}
+
+h1 {
+    margin: 0.8em 0 0.7rem;
+}
+
+.buttons {
+    margin: 2em 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 22%);
+    color: var(--button);
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    margin: 1.5em 0 0;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: var(--primary);
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 2em;
+    color: var(--white);
+}
+
+button[type="submit"]:hover {
+    background-color: var(--white);
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
