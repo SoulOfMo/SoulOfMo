@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @SoulOfMo
+- 👋 Hi, I’m @Morin Sultan
 - 👀 I’m interested in fontend web development
 - 🌱 I’m currently learning HTML, CSS and JS
 - 💞️ I’m looking to collaborate on any fontend project
